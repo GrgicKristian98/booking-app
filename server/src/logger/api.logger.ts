@@ -7,7 +7,7 @@ export class APILogger {
         this.logger = createLogger({
             transports: [
                 new (transports.Console)(),
-                new (transports.File)({ filename: 'combined.log' }),
+                new (transports.File)({ filename: './src/logger/combined.log' }),
             ]
         });
     }

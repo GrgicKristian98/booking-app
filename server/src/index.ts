@@ -5,7 +5,7 @@ import { APILogger } from './logger/api.logger';
 
 config();
 
-const port = 5000;
+const port = 5001;
 
 App.set('port', port);
 const server = http.createServer(App);
