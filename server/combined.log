@@ -1,0 +1,57 @@
+{"level":"info","message":"Listening on port 35547   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 38111   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 43145   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 43185   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 35827   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 43775   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 44395   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"controller: createSession   "}
+{"level":"info","message":"Listening on port 34991   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"controller: createSession   "}
+{"level":"info","message":"Listening on port 33859   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 40141   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"controller: createSession   "}
+{"level":"info","message":"controller: createSession   "}
+{"level":"info","message":"Listening on port 34019   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 33505   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 33215   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 38073   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"controller: createSession   "}
+{"level":"info","message":"controller: createSession   {\"date\":\"2023-02-01\",\"open\":true,\"start_time\":\"13:30\",\"end_time\":\"15:00\",\"client_email\":\"test@gmail.com\",\"client_name\":\"Testko Testek\"}"}
+{"level":"info","message":"controller: createSession   {\"date\":\"2023-02-01T00:00:00\",\"open\":true,\"start_time\":\"13:30\",\"end_time\":\"15:00\",\"client_email\":\"test@gmail.com\",\"client_name\":\"Testko Testek\"}"}
+{"level":"info","message":"Listening on port 44809   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"controller: createSession   {\"date\":\"2023-02-01\",\"open\":true,\"start_time\":\"13:30\",\"end_time\":\"15:00\",\"client_email\":\"test@gmail.com\",\"client_name\":\"Testko Testek\"}"}
+{"level":"info","message":"controller: createSession   {\"day\":\"2023-02-01\",\"open\":true,\"start_time\":\"13:30\",\"end_time\":\"15:00\",\"client_email\":\"test@gmail.com\",\"client_name\":\"Testko Testek\"}"}
+{"level":"info","message":"Listening on port 39945   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 33885   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 5000   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 5000   "}
+{"level":"info","message":"drop and re-sync db   "}
+{"level":"info","message":"Listening on port 5000"}
+{"level":"info","message":"drop and re-sync db"}
+{"level":"info","message":"null"}
+{"level":"info","message":"undefined"}
+{"level":"info","message":"null"}
+{"level":"info","message":"undefined"}
+{"level":"info","message":"null"}
+{"level":"info","message":"undefined"}
+{"level":"info","message":"Listening on port 5000"}
+{"level":"info","message":"drop and re-sync db"}
