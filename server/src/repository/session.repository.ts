@@ -1,6 +1,6 @@
 import { connect } from "../config/db.config";
 import { APILogger } from "../logger/api.logger";
-import { Session } from "../model/session.model";
+import { session } from "../model/session.model";
 
 export class SessionRepository {
     private logger: APILogger;
@@ -17,7 +17,7 @@ export class SessionRepository {
         this.db.sequelize.sync({ force: true }).then(() => {
             this.logger.info('drop and re-sync db', undefined);
         });
-        this.sessionRepository = this.db.sequelize.getRepository(Session)
+        this.sessionRepository = this.db.sequelize.getRepository(session)
     }
 
     async getSessions() {
@@ -31,7 +31,7 @@ export class SessionRepository {
         }
     }
 
-    async createSession(session: Session) {
+    async createSession(session: session) {
         let data = {};
         try {
             data = await this.sessionRepository.create(session);
@@ -41,7 +41,7 @@ export class SessionRepository {
         return data;
     }
 
-    async updateSession(session: Session) {
+    async updateSession(session: session) {
         let data = {};
         try {
             data = await this.sessionRepository.update({...session}, {

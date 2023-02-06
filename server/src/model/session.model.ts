@@ -1,7 +1,7 @@
-import { Table, Column, Model, PrimaryKey } from 'sequelize-typescript';
+import { Table, Column, Model } from 'sequelize-typescript';
 
 @Table
-export class Session extends Model {
+export class session extends Model {
 
     @Column
     day: string;

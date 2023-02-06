@@ -1,4 +1,4 @@
-import { Session } from "../model/session.model";
+import { session } from "../model/session.model";
 import { SessionRepository } from "../repository/session.repository";
 
 export class SessionService {
@@ -12,11 +12,11 @@ export class SessionService {
         return await this.sessionRepository.getSessions();
     }
 
-    async createSession(session: Session) {
+    async createSession(session: session) {
         return await this.sessionRepository.createSession(session);
     }
 
-    async updateSession(session: Session) {
+    async updateSession(session: session) {
         return await this.sessionRepository.updateSession(session);
     }
 
