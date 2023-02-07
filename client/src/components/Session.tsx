@@ -1,6 +1,8 @@
-function Session() {
+import { TSessionProp } from "../types/props/TSessionProp";
+
+function Session(prop: TSessionProp){
     return (
-        <div>Hello World!</div>
+        <div>User with email: {prop.session.client_email}</div>
     );
 }
 

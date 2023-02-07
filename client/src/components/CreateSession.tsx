@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { createSession } from "../api/createSession";
+import { THandleChangeProp } from "../types/props/THandleChangeProp";
 import { TSession } from "../types/TSession";
 
-function CreateSession() {
+function CreateSession(prop: THandleChangeProp) {
     const [session, setSession] = useState<TSession>({
         day: "",
         open: false,
@@ -14,7 +15,16 @@ function CreateSession() {
 
     async function handleCreateSession(e: React.FormEvent) {
         e.preventDefault();
-        await createSession(session);
+        const newSession = await createSession(session);
+        prop.handleChange(newSession);
+        setSession({
+            day: "",
+            open: false,
+            start_time: "",
+            end_time: "",
+            client_email: "",
+            client_name: "",
+        });
     }
 
     function handleDayValuehange(e: React.ChangeEvent<HTMLInputElement>) {
